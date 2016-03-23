@@ -15,6 +15,7 @@
 		74B237D71CA293350019B296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B237D51CA293350019B296 /* LaunchScreen.storyboard */; };
 		74B237E21CA293360019B296 /* AnimationTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237E11CA293360019B296 /* AnimationTransitionTests.m */; };
 		74B237ED1CA293360019B296 /* AnimationTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237EC1CA293360019B296 /* AnimationTransitionUITests.m */; };
+		74B237FC1CA295B30019B296 /* TransitionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237FB1CA295B30019B296 /* TransitionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		74B237E81CA293360019B296 /* AnimationTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B237EC1CA293360019B296 /* AnimationTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionUITests.m; sourceTree = "<group>"; };
 		74B237EE1CA293360019B296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B237FA1CA295AC0019B296 /* TransitionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionModel.h; sourceTree = "<group>"; };
+		74B237FB1CA295B30019B296 /* TransitionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				74B237CB1CA293350019B296 /* AppDelegate.m */,
 				74B237CD1CA293350019B296 /* ViewController.h */,
 				74B237CE1CA293350019B296 /* ViewController.m */,
+				74B237FA1CA295AC0019B296 /* TransitionModel.h */,
+				74B237FB1CA295B30019B296 /* TransitionModel.m */,
 				74B237D01CA293350019B296 /* Main.storyboard */,
 				74B237D31CA293350019B296 /* Assets.xcassets */,
 				74B237D51CA293350019B296 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B237FC1CA295B30019B296 /* TransitionModel.m in Sources */,
 				74B237CF1CA293350019B296 /* ViewController.m in Sources */,
 				74B237CC1CA293350019B296 /* AppDelegate.m in Sources */,
 				74B237C91CA293350019B296 /* main.m in Sources */,
@@ -496,6 +502,7 @@
 				74B237F31CA293360019B296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74B237F41CA293360019B296 /* Build configuration list for PBXNativeTarget "AnimationTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				74B237F61CA293360019B296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74B237F71CA293360019B296 /* Build configuration list for PBXNativeTarget "AnimationTransitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				74B237F91CA293360019B296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

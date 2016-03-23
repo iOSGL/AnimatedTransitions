@@ -3,9 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "AanimationTransitionn"
   s.version      = "0.0.1"
   s.summary  = "UBER imitate animated transitions"
-  s.description  = <<-DESC
-                       An A simple transition animations.
-                       DESC
+  
   s.homepage     = "https://github.com/geng199200/AnimatedTransitions"
 
   s.license      = 'MIT'
