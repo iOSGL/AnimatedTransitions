@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger, BubbleTransitionMode){
     Pop
 };
 
-@interface TransitionModel : NSObject <UIViewControllerContextTransitioning, UIViewControllerAnimatedTransitioning>
+@interface TransitionModel : NSObject <UIViewControllerAnimatedTransitioning>
 
 @property (nonatomic, assign) BubbleTransitionMode transitionMode;
 

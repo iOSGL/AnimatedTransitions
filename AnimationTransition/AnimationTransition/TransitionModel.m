@@ -87,4 +87,60 @@
     return CGRectMake(0, 0, size.width, size.height);
 }
 
+/*
+- (nullable UIView *)containerView{
+    return nil;
+}
+
+
+- (BOOL)isAnimated {
+    return YES;
+}
+
+- (BOOL)isInteractiven {
+    return YES;
+}
+
+- (BOOL)transitionWasCancelled;
+
+- (UIModalPresentationStyle)presentationStyle {
+    
+}
+
+- (void)updateInteractiveTransition:(CGFloat)percentComplete {
+    
+}
+
+- (void)finishInteractiveTransition {
+    
+}
+
+- (void)cancelInteractiveTransition {
+    
+}
+
+- (void)completeTransition:(BOOL)didComplete{
+    
+}
+
+- (nullable __kindof UIViewController *)viewControllerForKey:(NSString *)key {
+    
+}
+
+- (nullable __kindof UIView *)viewForKey:(NSString *)key NS_AVAILABLE_IOS(8_0) {
+    
+}
+
+- (CGAffineTransform)targetTransform NS_AVAILABLE_IOS(8_0) {
+    
+}
+
+- (CGRect)initialFrameForViewController:(UIViewController *)vc {
+    
+}
+- (CGRect)finalFrameForViewController:(UIViewController *)vc {
+    
+}
+ */
+
 @end
