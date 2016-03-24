@@ -9,7 +9,7 @@
     }
     return _transitionModel;
 }
-- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+###- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
     self.transitionModel.transitionMode = Present;
     self.transitionModel.startingPoint = self.modelBtn.center;
     self.transitionModel.bubbleColor = self.modelBtn.backgroundColor;
@@ -17,7 +17,7 @@
     return self.transitionModel;
 }
 
-- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+###- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
     self.transitionModel.transitionMode = Dismiss;
     self.transitionModel.startingPoint = self.modelBtn.center;
     self.transitionModel.bubbleColor = self.modelBtn.backgroundColor;
