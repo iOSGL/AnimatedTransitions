@@ -2,15 +2,13 @@
 #Screenshot
 ![](https://github.com/geng199200/AnimatedTransitions/blob/master/examples_image/123.gif) 
 ##Setup
-### Have your viewcontroller conform to UIViewControllerTransitioningDelegate. Set the transitionMode, the startingPoint, the bubbleColor and the duration.
+Have your viewcontroller conform to UIViewControllerTransitioningDelegate. Set the transitionMode, the startingPoint, the bubbleColor and the duration.
     - (TransitionModel *)transitionModel {
     if (_transitionModel == nil) {
         _transitionModel = [[TransitionModel alloc]init];
     }
     return _transitionModel;
 }
-#pragma mark - UIViewControllerTransitioningDelegate
-
 - (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
     self.transitionModel.transitionMode = Present;
     self.transitionModel.startingPoint = self.modelBtn.center;
