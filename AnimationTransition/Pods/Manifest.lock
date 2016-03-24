@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (0.6.4)
+  - RealReachability (1.1.2)
+
+DEPENDENCIES:
+  - Masonry
+  - RealReachability (~> 1.1.1)
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  RealReachability: ad8975d056156cb80ef1ab7f62b3ef2c39fbfc08
+
+COCOAPODS: 0.39.0

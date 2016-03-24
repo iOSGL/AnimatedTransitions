@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5504A92D0891FDD7A80368EC /* libPods-AnimationTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4778909B956CD45BCC2230D3 /* libPods-AnimationTransition.a */; };
+		74A329B71CA2A2F50030F8BA /* TransitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A329B61CA2A2F50030F8BA /* TransitionsViewController.m */; };
 		74B237C91CA293350019B296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237C81CA293350019B296 /* main.m */; };
 		74B237CC1CA293350019B296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237CB1CA293350019B296 /* AppDelegate.m */; };
-		74B237CF1CA293350019B296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237CE1CA293350019B296 /* ViewController.m */; };
-		74B237D21CA293350019B296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B237D01CA293350019B296 /* Main.storyboard */; };
 		74B237D41CA293350019B296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B237D31CA293350019B296 /* Assets.xcassets */; };
-		74B237D71CA293350019B296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B237D51CA293350019B296 /* LaunchScreen.storyboard */; };
 		74B237E21CA293360019B296 /* AnimationTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237E11CA293360019B296 /* AnimationTransitionTests.m */; };
 		74B237ED1CA293360019B296 /* AnimationTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237EC1CA293360019B296 /* AnimationTransitionUITests.m */; };
 		74B237FC1CA295B30019B296 /* TransitionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237FB1CA295B30019B296 /* TransitionModel.m */; };
+		74B237FF1CA2A1160019B296 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237FE1CA2A1160019B296 /* ModelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4778909B956CD45BCC2230D3 /* libPods-AnimationTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimationTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6072656B71A6BFD5EF5712E7 /* Pods-AnimationTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationTransition/Pods-AnimationTransition.debug.xcconfig"; sourceTree = "<group>"; };
+		74A329B51CA2A2F50030F8BA /* TransitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionsViewController.h; sourceTree = "<group>"; };
+		74A329B61CA2A2F50030F8BA /* TransitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionsViewController.m; sourceTree = "<group>"; };
 		74B237C41CA293350019B296 /* AnimationTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B237C81CA293350019B296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74B237CA1CA293350019B296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74B237CB1CA293350019B296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74B237CD1CA293350019B296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74B237CE1CA293350019B296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		74B237D11CA293350019B296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74B237D31CA293350019B296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		74B237D61CA293350019B296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B237D81CA293350019B296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B237DD1CA293360019B296 /* AnimationTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B237E11CA293360019B296 /* AnimationTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionTests.m; sourceTree = "<group>"; };
@@ -54,6 +54,9 @@
 		74B237EE1CA293360019B296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B237FA1CA295AC0019B296 /* TransitionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionModel.h; sourceTree = "<group>"; };
 		74B237FB1CA295B30019B296 /* TransitionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionModel.m; sourceTree = "<group>"; };
+		74B237FD1CA2A1160019B296 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		74B237FE1CA2A1160019B296 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		9F99AFBCD5FDBD18CDE5182C /* Pods-AnimationTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationTransition/Pods-AnimationTransition.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5504A92D0891FDD7A80368EC /* libPods-AnimationTransition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13437FE08C96E78E02CD439E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4778909B956CD45BCC2230D3 /* libPods-AnimationTransition.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74B237BB1CA293350019B296 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +100,8 @@
 				74B237E01CA293360019B296 /* AnimationTransitionTests */,
 				74B237EB1CA293360019B296 /* AnimationTransitionUITests */,
 				74B237C51CA293350019B296 /* Products */,
+				A0AC203E6D862D0E8004F8CF /* Pods */,
+				13437FE08C96E78E02CD439E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,13 +120,13 @@
 			children = (
 				74B237CA1CA293350019B296 /* AppDelegate.h */,
 				74B237CB1CA293350019B296 /* AppDelegate.m */,
-				74B237CD1CA293350019B296 /* ViewController.h */,
-				74B237CE1CA293350019B296 /* ViewController.m */,
+				74A329B51CA2A2F50030F8BA /* TransitionsViewController.h */,
+				74A329B61CA2A2F50030F8BA /* TransitionsViewController.m */,
 				74B237FA1CA295AC0019B296 /* TransitionModel.h */,
 				74B237FB1CA295B30019B296 /* TransitionModel.m */,
-				74B237D01CA293350019B296 /* Main.storyboard */,
+				74B237FD1CA2A1160019B296 /* ModelViewController.h */,
+				74B237FE1CA2A1160019B296 /* ModelViewController.m */,
 				74B237D31CA293350019B296 /* Assets.xcassets */,
-				74B237D51CA293350019B296 /* LaunchScreen.storyboard */,
 				74B237D81CA293350019B296 /* Info.plist */,
 				74B237C71CA293350019B296 /* Supporting Files */,
 			);
@@ -145,6 +159,15 @@
 			path = AnimationTransitionUITests;
 			sourceTree = "<group>";
 		};
+		A0AC203E6D862D0E8004F8CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6072656B71A6BFD5EF5712E7 /* Pods-AnimationTransition.debug.xcconfig */,
+				9F99AFBCD5FDBD18CDE5182C /* Pods-AnimationTransition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74B237F11CA293360019B296 /* Build configuration list for PBXNativeTarget "AnimationTransition" */;
 			buildPhases = (
+				654A3C1A67C7785405804FAD /* Check Pods Manifest.lock */,
 				74B237C01CA293350019B296 /* Sources */,
 				74B237C11CA293350019B296 /* Frameworks */,
 				74B237C21CA293350019B296 /* Resources */,
+				C8056FE5226329507FA2EEB3 /* Embed Pods Frameworks */,
+				F48C55914616D955D06EE1C3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +238,7 @@
 				TargetAttributes = {
 					74B237C31CA293350019B296 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4TZ6FQ35UY;
 					};
 					74B237DC1CA293360019B296 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -248,9 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B237D71CA293350019B296 /* LaunchScreen.storyboard in Resources */,
 				74B237D41CA293350019B296 /* Assets.xcassets in Resources */,
-				74B237D21CA293350019B296 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,13 +295,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		654A3C1A67C7785405804FAD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8056FE5226329507FA2EEB3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimationTransition/Pods-AnimationTransition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F48C55914616D955D06EE1C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimationTransition/Pods-AnimationTransition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74B237C01CA293350019B296 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				74B237FC1CA295B30019B296 /* TransitionModel.m in Sources */,
-				74B237CF1CA293350019B296 /* ViewController.m in Sources */,
+				74B237FF1CA2A1160019B296 /* ModelViewController.m in Sources */,
+				74A329B71CA2A2F50030F8BA /* TransitionsViewController.m in Sources */,
 				74B237CC1CA293350019B296 /* AppDelegate.m in Sources */,
 				74B237C91CA293350019B296 /* main.m in Sources */,
 			);
@@ -312,25 +386,6 @@
 			targetProxy = 74B237E91CA293360019B296 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		74B237D01CA293350019B296 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74B237D11CA293350019B296 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		74B237D51CA293350019B296 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74B237D61CA293350019B296 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		74B237EF1CA293360019B296 /* Debug */ = {
@@ -415,25 +470,31 @@
 		};
 		74B237F21CA293360019B296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6072656B71A6BFD5EF5712E7 /* Pods-AnimationTransition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimationTransition/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fengche.AnimationTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		74B237F31CA293360019B296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F99AFBCD5FDBD18CDE5182C /* Pods-AnimationTransition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimationTransition/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fengche.AnimationTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
