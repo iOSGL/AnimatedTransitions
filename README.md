@@ -1,6 +1,6 @@
 UBER imitate animated transitions
-I made reference to a version of the [Swift transition](https://github.com/andreamazz/BubbleTransition) animation, made a OC version.
 ===
+I made reference to a version of the [Swift](https://github.com/andreamazz/BubbleTransition) transition animation, made a OC version.
 Screenshot
 -
 ![](https://github.com/geng199200/AnimatedTransitions/blob/master/examples_image/123.gif) 
