@@ -473,6 +473,7 @@
 			baseConfigurationReference = 6072656B71A6BFD5EF5712E7 /* Pods-AnimationTransition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimationTransition/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -488,6 +489,7 @@
 			baseConfigurationReference = 9F99AFBCD5FDBD18CDE5182C /* Pods-AnimationTransition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimationTransition/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
