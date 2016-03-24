@@ -2,11 +2,13 @@ UBER imitate animated transitions
 ===
 I made reference to a version of the [Swift](https://github.com/andreamazz/BubbleTransition) transition animation, made a OC version.
 Screenshot
--
+---
 ![](https://github.com/geng199200/AnimatedTransitions/blob/master/examples_image/123.gif) 
-### Setup
+Setup
+---
 Have your viewcontroller conform to UIViewControllerTransitioningDelegate. Set the transitionMode, the startingPoint, the bubbleColor and the duration.
-   - (TransitionModel *)transitionModel {
+
+###    - (TransitionModel *)transitionModel {
     if (_transitionModel == nil) {
         _transitionModel = [[TransitionModel alloc]init];
     }
