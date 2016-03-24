@@ -31,7 +31,9 @@ Have your viewcontroller conform to `UIViewControllerTransitioningDelegate`. Set
     self.transitionModel.duration = 0.5;
     return self.transitionModel;
 }
-
+```
+MIT License
+---
 
 
 
